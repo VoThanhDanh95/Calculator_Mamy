@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="400dip"
+        android:maxHeight="120dip"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:textSize="30dp"
+        android:text=""
+
+        android:id="@+id/edtso1" />
+
+    <!--<TextView-->
+    //android:text="hn 10.11.15.21.24 dd 7n , 54.81 b 5,2d 12.13.14 dd 5n, 11 b 5n"
+
+    <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="120dip"-->
+        <!--android:layout_gravity="end"-->
+        <!--android:textAlignment="textEnd"-->
+        <!--android:textSize="50dp"-->
+        <!--android:id="@+id/edtso1" />-->
+    <!--//android:text="hehe"-->
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:maxHeight="100dip"
+        android:layout_gravity="end"
+        android:textAlignment="textEnd"
+        android:textSize="30dp"
+        android:text=""
+        android:id="@+id/edtso2" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal" >
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal" >
+
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal" >
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center_horizontal" >
+
+                <Button
+                    android:id="@+id/btnHn"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:textColor="#EEEEEE"
+                    android:background="#504A4B"
+                    android:text="HN" />
+                <Button
+                    android:id="@+id/btn0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#EEEEEE"
+                    android:background="#504A4B"
+                    android:text="" />
+                <Button
+                    android:id="@+id/btnNam"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="#EEEEEE"
+                    android:background="#504A4B"
+                    android:text="Nam" />
+
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btndel"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:textColor="#EEEEEE"
+                android:background="#736F6E"
+                android:text="Xóa" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
